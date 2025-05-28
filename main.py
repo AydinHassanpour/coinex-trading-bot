@@ -30,3 +30,9 @@ if __name__ == "__main__":
     print("ربات شروع شد...")
     info = get_account_info()
     print("اطلاعات حساب:", info)
+
+
+if __name__ == "__main__":
+    print("در حال دریافت اطلاعات حساب...")
+    result = get_account_info()
+    print(result.text)
